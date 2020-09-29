@@ -1,0 +1,81 @@
+package calificaciones;
+import java.util.*;
+import java.util.*;
+public class calificaciones {
+	int sumatotal,sumaprimeros,sumaultimos,promediototal,promedioprimeros,promedioultimos;
+	Scanner entrada=new Scanner(System.in);
+	int []calificaciones=new int[15];
+	public void pedirdatos(){System.out.println("dame la calificacion final de 19680091 Acevedo campos ariagna ");
+	calificaciones[0]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 1968009 Ambrocio perez michael haziel ");
+	calificaciones[1]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 19680133 Ambrosio hernandez vianey celerina ");
+	calificaciones[2]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 18680136 Diaz jesus mariana dazzling");
+	calificaciones[3]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 19680108 Diaz rosas alexis efren ");
+	calificaciones[4]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 19680108 Dominguez cazales rosas jennifer irlanda ");
+	calificaciones[5]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 19680957 Eligio ramos monserrat ");
+	calificaciones[6]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 19680144 Flores maldonado liliana ");
+	calificaciones[7]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 19680156 Gomes aragon edgar omar ");
+	calificaciones[8]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 19680162 Gutierrez valle samara ");
+	calificaciones[9]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 19680958 Juarez ramos alexis manuel ");
+	calificaciones[10]=entrada.nextInt();
+	System.out.println("dame la calificacion final de19680177 Leyva silva rogelio jesus");
+	calificaciones[11]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 19680163 Martinez de los santos isabel ");
+	calificaciones[12]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 19680165 martinez rayo iris madai ");
+	calificaciones[13]=entrada.nextInt();
+	System.out.println("dame la calificacion final de 19680172 Melendez mendoza vicente angel ");
+	calificaciones[14]=entrada.nextInt();
+	}
+
+	int opcion=entrada.nextInt();
+
+public void sumatotal(){
+	for(int i=0;i<calificaciones.length;i++){
+		sumatotal+=calificaciones[i];
+		
+	}
+		System.out.println("la calificacion total es:"+sumatotal/15);
+	
+}
+public void sumaprimeros(){
+	for(int i=0;i<5;i++){
+		sumaprimeros+=calificaciones[i];
+		
+	}
+
+	System.out.println("la suma de los 5 primeros es :"+sumaprimeros/5);
+}
+
+//}
+
+
+public void sumaultimos(){
+	for(int i=calificaciones.length-1;i>=10;i--){
+		sumaultimos+=calificaciones[i];
+		
+	}
+	
+		System.out.println("la calificacion de los 5 ultimos es:"+sumaultimos/5);
+	
+}
+
+public void mostrarresultados(){
+	System.out.println("la calificacion total es:"+sumatotal);
+	System.out.println("la calificacion primeros es:"+sumaprimeros);
+	System.out.println("la calificacion ultimos es:"+sumaultimos);
+}
+
+
+	}//class
+
+//zamora esparza yezier cruz
