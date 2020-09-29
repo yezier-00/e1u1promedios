@@ -1,0 +1,21 @@
+package calificaciones;
+
+public class main {
+
+	public static void main(String[] args) {
+		System.out.println("menu:");
+		System.out.println("1-calificacion total:");
+		System.out.println("2-calificacion primeros:");
+		System.out.println("3-calificacion ultimos:");
+		System.out.println("4-salir:");
+		System.out.println("dame una opcion:");
+		
+calificaciones calif=new calificaciones();
+calif.pedirdatos();
+calif.sumatotal();
+calif.sumaprimeros();
+calif.sumaultimos();
+	}
+
+}
+//zamora esparza yezier cruz
